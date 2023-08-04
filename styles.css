@@ -148,3 +148,26 @@ body {
     color: #fff;
   }
   
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+.transparent-btn {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: "Century Gothic", Arial, sans-serif;
+  font-weight: normal;
+  cursor: pointer;
+}
+
